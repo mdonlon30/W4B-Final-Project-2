@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    background: black;
+  }
+
+header {
+    background: black;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}
+
+h4 {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.highlight:hover {
+    color:rgb(103, 196, 243);
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin-top: 0px;
+    border-bottom: 6px solid rgb(103, 196, 243);
+    border-radius: 20px;
+    position: sticky;
+    top: 50px;d
+}
+
+.leftsnowflake img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 160px;
+    margin-top: 13px;
+    animation: rotationleft 13s infinite linear;
+    
+}
+
+@keyframes rotationleft {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* .rightsnowflake img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+    margin-top: 13px;
+    animation: rotationright 13s infinite linear;
+}
+
+@keyframes rotationright {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-359deg);
+    }
+} */
+
+
+.Title {
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+nav ul {
+    float: right;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px;
+}
+
+
+nav ul li a:hover {
+    color: rgb(103, 196, 243);
+}
+
+.albums-box {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.albums {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(103, 196, 243);
+    text-shadow: 3px 3px white;
+}
+
+.shorelinedothat {
+    width: 50%;
+    height: 850px;
+    background-color: aqua;
+    background-image: url('/music images/shorelinedothatshit.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.geezyworld {
+    width: 50%;
+    height: 850px;
+    background-color: aqua;
+    background-image: url('/music images/geezyworld.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.otxmas {
+    width: 33.33%;
+    height: 550px;
+    background-color: aqua;
+    background-image: url('/music images/otxmas.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.partypack {
+    width: 33.33%;
+    height: 550px;
+    background-color: aqua;
+    background-image: url('/music images/party\ pack.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.mafiabidness {
+    width: 33.33%;
+    height: 550px;
+    background-color: aqua;
+    background-image: url('/music images/mafia\ bidness.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.singles-box {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 70px;
+    float: left;
+}
+
+.singles {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(103, 196, 243);
+    text-shadow: 3px 3px white;
+}
+
+.offamacbook {
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    background-image: url("/music images/off\ a\ macbook.jfif");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.heavy {
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    background-image: url('/music images/heavy.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.witmyrounds {
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    background-image: url('/music images/wit\ my\ rounds.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+}
+
+.up {
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    background-image: url('/music images/up.jfif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    transition: width .75s, height .75s;
+    transition-timing-function: ease-out;
+}
+
+.center:hover {
+    width: 130px;
+    height: 130px;
+}
+footer {
+    height: 60px;
+    line-height: 0px;
+    background-color: white;
+    border-top: 6px solid rgb(103, 196, 243);
+    border-radius: 30px;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.bottomblack {
+    height: 20px;
+    width: 100%;
+    background-color: black;
+}
